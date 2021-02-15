@@ -34,3 +34,4 @@ export { default as useObservable } from './useObservable';
 export { default as useSpeechSynthesis } from './useSpeechSynthesis';
 export { default as useSystemVoices } from './useSystemVoices';
 export { default as useRenderInfo } from './useRenderInfo';
+export { default as useAudio } from './useAudio';

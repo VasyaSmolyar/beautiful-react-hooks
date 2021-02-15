@@ -278,3 +278,14 @@ type RenderInfo = {
 }
 
 export declare const useRenderInfo: (name?: string, log?: boolean) => RenderInfo;
+
+/**
+ * useAudio
+ */
+type AudioOptions = {
+  src: string,
+  setAudio: Function,
+  toggle: Function
+}
+
+export declare const useAudio: (ref?:  MutableRefObject<typeof Audio>, url?: string) => AudioOptions;
